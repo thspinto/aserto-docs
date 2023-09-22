@@ -25,4 +25,7 @@ Regardless of the model chosen, the authorization system will look up details ab
 
 These rules for access are the Authorization Policy. Modern Authorization systems, like Aserto, allow you to externalize the policy and the permissions for different parts of the system. They integrate with the IDP to pull down corporate directory information, including roles, permissions, and group membership. 
 
+# Why you need both
+
+Authentication is the front-door to your system. It helps prevent unwanted actors from getting in unless they have proper credentials. Authorization controls the actions of the user once they get in. It controls where they can go, what they can see, and what they can do. It credentials are compromised, Authorization is your next line of defense. It ensures that both well-meaning users and bad actors can't harm the system or compromise your customer's data. A modern Authorization system like Aserto helps here and provides tools to make it easier to manage your users and give them the right permissions approporiate for their role within your organization.
 
